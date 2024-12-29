@@ -348,25 +348,25 @@
 
         private System.Windows.Forms.Panel panel1;
         private DevExpress.XtraEditors.MarqueeProgressBarControl marqueeProgressBarControl1;
-        private System.Windows.Forms.Panel panel2;
+        internal System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        internal AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label1;
         private DevExpress.XtraEditors.TrackBarControl trackBarControl1;
         private DevExpress.XtraEditors.SimpleButton simpleButton7;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        internal DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        internal DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        internal System.Windows.Forms.OpenFileDialog openFileDialog1;
         private DevExpress.XtraEditors.TrackBarControl trackBarControl2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel5;
         private DevExpress.XtraEditors.SimpleButton simpleButton8;
         private DevExpress.XtraEditors.SimpleButton simpleButton10;
-        public System.Windows.Forms.ListBox listBox1;
+        internal System.Windows.Forms.ListBox listBox1;
     }
 }
