@@ -25,9 +25,9 @@ namespace MusicREmote
             hotKey = new HotKey(MOD_KEY.CONTROL | MOD_KEY.SHIFT, Keys.Up);
             hotKey.HotKeyPush += new EventHandler(HKF.panelVisible);
             hotKey = new HotKey(MOD_KEY.CONTROL | MOD_KEY.SHIFT, Keys.Right);
-            hotKey.HotKeyPush += new EventHandler(HKF.hotKey_HotKeyPush_2);
+            hotKey.HotKeyPush += new EventHandler(HKF.nextPlay);
             hotKey = new HotKey(MOD_KEY.CONTROL | MOD_KEY.SHIFT, Keys.Left);
-            hotKey.HotKeyPush += new EventHandler(HKF.hotKey_HotKeyPush_3);
+            hotKey.HotKeyPush += new EventHandler(HKF.previewPlay);
             hotKey = new HotKey(MOD_KEY.CONTROL | MOD_KEY.SHIFT, Keys.R);
             hotKey.HotKeyPush += new EventHandler(HKF.loopChangeKeyTrue);
             hotKey = new HotKey(MOD_KEY.ALT | MOD_KEY.CONTROL | MOD_KEY.SHIFT, Keys.R);
