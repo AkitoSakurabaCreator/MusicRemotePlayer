@@ -32,8 +32,9 @@ tags: ""
     
 
 ## デモ(図解)
-![image.png](https://boostnote.io/api/teams/ZiDFKbzPj/files/4dc07b2b29cc08acaec49781c8ec6982b9a8a2564c25d3b912a3ed46ace62195-image.png)
-
+<p align="center">
+  <img src="docs/MusicRemotePlayer.png" alt="MusicRemotePlayer: full app" width=810 />
+</p>
 
 
 
