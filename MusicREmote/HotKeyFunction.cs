@@ -25,18 +25,19 @@ namespace MusicREmote
                 musicPlayer.panel2.Visible = true;
             }
         }
-        public void hotKey_HotKeyPush_2(object sender, EventArgs e)
+        public void nextPlay(object sender, EventArgs e)
         {
             int num = musicPlayer.listBox1.SelectedIndex + 1;
-            if (num > 0)
-            {
-                musicPlayer.listBox1.SelectedIndex = num;
-                PContol.changeUrl(PContol.getPath()[musicPlayer.listBox1.SelectedIndex]);
-            }
+            changeList(num);
         }
-        public void hotKey_HotKeyPush_3(object sender, EventArgs e)
+        public void previewPlay(object sender, EventArgs e)
         {
             int num = musicPlayer.listBox1.SelectedIndex - 1;
+            changeList(num);
+        }
+
+        private void changeList(int num)
+        {
             if (num > 0)
             {
                 musicPlayer.listBox1.SelectedIndex = num;
